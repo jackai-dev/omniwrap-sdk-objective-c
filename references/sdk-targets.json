@@ -1,0 +1,132 @@
+{
+  "contract_fingerprint": "2289bcb0d661bdea6dd47c7967f37aace7d3a152e18e7d2f64c08514fb73e795",
+  "sdk_targets_version": "1.1.0",
+  "targets": [
+    {
+      "identity": {
+        "coordinates": "OmniWrapSDK@1.0.0",
+        "ecosystem": "SwiftPM",
+        "entry": "OWClient",
+        "import": "#import \"OWClient.h\""
+      },
+      "operations": {
+        "cancelPreview": {
+          "member": "cancelPreview",
+          "method": "POST",
+          "path": "/v1/projects/{projectId}/previews/{previewId}/cancel",
+          "resource": "previews",
+          "signature": "- (nullable NSDictionary *)cancelPreview:(NSString *)owPath0 previewId:(NSString *)owPath1 body:(nullable NSDictionary *)body error:(NSError * _Nullable * _Nullable)error"
+        },
+        "createConfigurationRevision": {
+          "member": "createConfigurationRevision",
+          "method": "POST",
+          "path": "/v1/projects/{projectId}/configuration-revisions",
+          "resource": "configurations",
+          "signature": "- (nullable NSDictionary *)createConfigurationRevision:(NSString *)owPath0 body:(nullable NSDictionary *)body error:(NSError * _Nullable * _Nullable)error"
+        },
+        "createPreview": {
+          "member": "createPreview",
+          "method": "POST",
+          "path": "/v1/projects/{projectId}/previews",
+          "resource": "previews",
+          "signature": "- (nullable NSDictionary *)createPreview:(NSString *)owPath0 body:(nullable NSDictionary *)body error:(NSError * _Nullable * _Nullable)error"
+        },
+        "createSourceRevision": {
+          "member": "createSourceRevision",
+          "method": "POST",
+          "path": "/v1/projects/{projectId}/source-revisions",
+          "resource": "sources",
+          "signature": "- (nullable NSDictionary *)createSourceRevision:(NSString *)owPath0 body:(nullable NSDictionary *)body queryItems:(NSArray<NSURLQueryItem *> *)queryItems error:(NSError * _Nullable * _Nullable)error"
+        },
+        "getArtifact": {
+          "member": "getArtifact",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/artifacts/{artifactId}",
+          "resource": "artifacts",
+          "signature": "- (nullable NSDictionary *)getArtifact:(NSString *)owPath0 artifactId:(NSString *)owPath1 error:(NSError * _Nullable * _Nullable)error"
+        },
+        "getConfigurationRevision": {
+          "member": "getConfigurationRevision",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/configuration-revisions/{revisionId}",
+          "resource": "configurations",
+          "signature": "- (nullable NSDictionary *)getConfigurationRevision:(NSString *)owPath0 revisionId:(NSString *)owPath1 error:(NSError * _Nullable * _Nullable)error"
+        },
+        "getEvidence": {
+          "member": "getEvidence",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/evidence/{evidenceId}",
+          "resource": "evidence",
+          "signature": "- (nullable NSDictionary *)getEvidence:(NSString *)owPath0 evidenceId:(NSString *)owPath1 error:(NSError * _Nullable * _Nullable)error"
+        },
+        "getPreview": {
+          "member": "getPreview",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/previews/{previewId}",
+          "resource": "previews",
+          "signature": "- (nullable NSDictionary *)getPreview:(NSString *)owPath0 previewId:(NSString *)owPath1 error:(NSError * _Nullable * _Nullable)error"
+        },
+        "getPreviewEvents": {
+          "member": "getPreviewEvents",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/previews/{previewId}/events",
+          "resource": "previews",
+          "signature": "- (nullable NSDictionary *)getPreviewEvents:(NSString *)owPath0 previewId:(NSString *)owPath1 queryItems:(NSArray<NSURLQueryItem *> *)queryItems error:(NSError * _Nullable * _Nullable)error"
+        },
+        "getPreviewLogs": {
+          "member": "getPreviewLogs",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/previews/{previewId}/logs",
+          "resource": "previews",
+          "signature": "- (nullable NSDictionary *)getPreviewLogs:(NSString *)owPath0 previewId:(NSString *)owPath1 queryItems:(NSArray<NSURLQueryItem *> *)queryItems error:(NSError * _Nullable * _Nullable)error"
+        },
+        "getProject": {
+          "member": "getProject",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}",
+          "resource": "projects",
+          "signature": "- (nullable NSDictionary *)getProject:(NSString *)owPath0 error:(NSError * _Nullable * _Nullable)error"
+        },
+        "getSourceRevision": {
+          "member": "getSourceRevision",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/source-revisions/{revisionId}",
+          "resource": "sources",
+          "signature": "- (nullable NSDictionary *)getSourceRevision:(NSString *)owPath0 revisionId:(NSString *)owPath1 error:(NSError * _Nullable * _Nullable)error"
+        },
+        "getUserContext": {
+          "member": "getUserContext",
+          "method": "GET",
+          "path": "/v1/me/context",
+          "resource": "context",
+          "signature": "- (nullable NSDictionary *)getUserContextWithError:(NSError * _Nullable * _Nullable)error"
+        },
+        "listPreviewEvidence": {
+          "member": "listPreviewEvidence",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/previews/{previewId}/evidence",
+          "resource": "evidence",
+          "signature": "- (nullable NSDictionary *)listPreviewEvidence:(NSString *)owPath0 previewId:(NSString *)owPath1 queryItems:(NSArray<NSURLQueryItem *> *)queryItems error:(NSError * _Nullable * _Nullable)error"
+        },
+        "listPreviews": {
+          "member": "listPreviews",
+          "method": "GET",
+          "path": "/v1/projects/{projectId}/previews",
+          "resource": "previews",
+          "signature": "- (nullable NSDictionary *)listPreviews:(NSString *)owPath0 queryItems:(NSArray<NSURLQueryItem *> *)queryItems error:(NSError * _Nullable * _Nullable)error"
+        },
+        "listProjects": {
+          "member": "listProjects",
+          "method": "GET",
+          "path": "/v1/projects",
+          "resource": "projects",
+          "signature": "- (nullable NSDictionary *)listProjectsWithQueryItems:(NSArray<NSURLQueryItem *> *)queryItems error:(NSError * _Nullable * _Nullable)error"
+        }
+      },
+      "package_directory": "../omniwrapsdk-objective-c-sdk",
+      "package_manifest": "Package.swift",
+      "reference": "api.md",
+      "renderer": "objective_c"
+    }
+  ]
+}

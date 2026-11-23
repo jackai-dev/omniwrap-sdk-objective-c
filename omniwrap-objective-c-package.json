@@ -1,0 +1,76 @@
+{
+  "artifact_type": "objective-c-sdk",
+  "package_manifest": "Package.swift",
+  "package_name": "OmniWrapSDK",
+  "package_version": "1.0.0",
+  "runtime_floor": "5.9",
+  "source_files": [
+    {
+      "path": ".omniwrap-skill-manifest.json",
+      "sha256": "42eeb482d2c8a0e90231a9cf9555cd90426250008679502631ad486bd0c791f6",
+      "size_bytes": 359
+    },
+    {
+      "path": "agent-session.json",
+      "sha256": "3bb03a4321f79bc29df42d09030854099b83e8b23aeb2332346336c0c48a7c47",
+      "size_bytes": 158826
+    },
+    {
+      "path": "AGENT_SESSION.md",
+      "sha256": "08c50f69febb223517f562c988aa191d05fc9544e692714dbbfd3010b5b61044",
+      "size_bytes": 705
+    },
+    {
+      "path": "api.md",
+      "sha256": "86e09d944ab35a53abe38fdad88c24e25678f59159aa55bcf036b30cfe416944",
+      "size_bytes": 64547
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fb11dfcf40507855f2fbe0fdcee036cfe549b3ef7e52ebeb09e0dd66d552a128",
+      "size_bytes": 282
+    },
+    {
+      "path": "Package.swift",
+      "sha256": "b0cc280bde2313d3008fce49684f8836fd4655cd7c65fd0648536c7e6e6a58da",
+      "size_bytes": 547
+    },
+    {
+      "path": "README.md",
+      "sha256": "62b5d0396f1ff5126db3a64f9fa916b690551947b4b0c94982e59e3b292c719c",
+      "size_bytes": 792
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "167ef99f4e7c796d77d260c3132af59f2abc642ab47f15fe8b0c891ed58d42ce",
+      "size_bytes": 8947
+    },
+    {
+      "path": "Sources/OmniWrapClient/include/OWClient.h",
+      "sha256": "64bbf5d7d15b093bdb24cbf8232b11df3070ff592a36011ffaeac3998b4cbff3",
+      "size_bytes": 6099
+    },
+    {
+      "path": "Sources/OmniWrapClient/omniwrap_client.h",
+      "sha256": "c9222db602da8094baf7ea2aea43995e188760d5d43b604fe9e6ee33e9ffd463",
+      "size_bytes": 6991
+    },
+    {
+      "path": "Sources/OmniWrapClient/OWClient.m",
+      "sha256": "d95e6294069966278d2d55d3553d417550b525a5b6594a81fac207adc34182bb",
+      "size_bytes": 27945
+    },
+    {
+      "path": "Sources/OmniWrapClient/transport.c",
+      "sha256": "4a9d5465690c5351685bdce330511b2040f8e9dc068ae28cf0851f14aa5dd80b",
+      "size_bytes": 31795
+    },
+    {
+      "path": "Sources/OWAgentSession.h",
+      "sha256": "074c04a925aa38499451be050cfe79769ff6b07c2aaadddb6699cade83fa765a",
+      "size_bytes": 836
+    }
+  ],
+  "source_version": "1.0.0",
+  "target": "objective_c"
+}
